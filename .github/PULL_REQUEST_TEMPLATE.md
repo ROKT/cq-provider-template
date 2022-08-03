@@ -1,18 +1,27 @@
-<!-- 🎉 Thank you for making CloudQuery awesome by submitting a PR 🎉 -->
+### Background ###
 
-#### Summary
+Provide a summary of why you are making this pull request and the issue it is fixing. Also include relevant motivation and context that a reviewer should know. List any dependencies that are required for this change.
 
-<!--
-Explain what problem this PR addresses
--->
+Fixes [(issue)]
 
----
+### What Has Changed: ###
 
-Use the following steps to ensure your PR is ready to be reviewed
+List out what has changed as a result of this PR.
 
-- [ ] Read the [contribution guidelines](../blob/main/CONTRIBUTING.md) 🧑‍🎓
-- [ ] Run `go fmt` to format your code 🖊
-- [ ] Lint your changes via `golangci-lint run` 🚨 (install golangci-lint [here](https://golangci-lint.run/usage/install/#local-installation))
-- [ ] Update or add tests. Learn more about testing [here](https://docs.cloudquery.io/docs/developers/sdk/testing) 🧪
-- [ ] Update the docs by running `go run ./docs/docs.go` and committing the changes 📃
-- [ ] Ensure the status checks below are successful ✅
+### How Has This Been Tested? ###
+
+Describe the tests that you ran to verify your changes. 
+
+### Notes
+
+Add any notes or extra information here that might be useful to the reviewer if applicable i.e. links to documentation/blogs or dashboards.
+
+### Checklist: ###
+
+- [ ] Run `go fmt` to format your code.
+- [ ] I have performed a self-review of my own code.
+- [ ] I have made corresponding changes to the documentation.
+- [ ] I have added tests that prove my fix is effective or that my feature works.
+- [ ] New and existing unit tests pass locally with my changes.
+- [ ] I have verified that CI completes successfully.
+- [ ] All insignificant commits have been squashed.
