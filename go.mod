@@ -1,4 +1,4 @@
-module github.com/cloudquery/cq-provider-template
+module github.com/ROKT/cq-provider-template
 
 go 1.18
 

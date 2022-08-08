@@ -7,7 +7,7 @@ import (
 	"path"
 
 	"github.com/cloudquery/cq-provider-sdk/provider/docs"
-	"github.com/cloudquery/cq-provider-template/resources/provider"
+	"github.com/ROKT/cq-provider-template/resources/provider"
 )
 
 func main() {
