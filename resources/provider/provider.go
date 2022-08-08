@@ -4,8 +4,8 @@ import (
 	"github.com/cloudquery/cq-provider-sdk/provider"
 	"github.com/cloudquery/cq-provider-sdk/provider/schema"
 	// CHANGEME: change the following to your own package
-	"github.com/cloudquery/cq-provider-template/client"
-	"github.com/cloudquery/cq-provider-template/resources/services/demo"
+	"github.com/ROKT/cq-provider-template/client"
+	"github.com/ROKT/cq-provider-template/resources/services/demo"
 )
 
 var (
