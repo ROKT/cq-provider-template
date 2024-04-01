@@ -22,7 +22,7 @@ jobs:
               - '!(terraform/**/*|scripts/**/*)'
       - name: Set up Go 1.x
         if: steps.changes.outputs.src == 'true' || github.event_name != 'pull_request'
-        uses: actions/setup-go@v3
+        uses: actions/setup-go@v5
         with:
           go-version: ^1.18
       - uses: actions/cache@v3
