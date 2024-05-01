@@ -28,7 +28,7 @@ jobs:
 
       - name: golangci-lint
         if: steps.changes.outputs.src == 'true' || github.event_name != 'pull_request'
-        uses: golangci/golangci-lint-action@v3
+        uses: golangci/golangci-lint-action@v5
         with:
           version: v1.47.3
           args: --timeout 10m --verbose
