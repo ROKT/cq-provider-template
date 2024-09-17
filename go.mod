@@ -4,7 +4,7 @@ go 1.18
 
 require (
 	github.com/cloudquery/cq-provider-sdk v0.14.6
-	github.com/hashicorp/go-hclog v1.2.2
+	github.com/hashicorp/go-hclog v1.6.3
 )
 
 require (
