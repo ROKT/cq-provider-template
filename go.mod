@@ -1,6 +1,6 @@
 module github.com/ROKT/cq-provider-template
 
-go 1.18
+go 1.23
 
 require (
 	github.com/cloudquery/cq-provider-sdk v0.14.6
