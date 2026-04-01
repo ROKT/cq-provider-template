@@ -21,7 +21,7 @@ jobs:
             src:
               - '!(terraform/**/*|scripts/**/*)'
 
-      - uses: actions/setup-go@v3
+      - uses: actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c # v6
         if: steps.changes.outputs.src == 'true' || github.event_name != 'pull_request'
         with:
           go-version: 1.18
