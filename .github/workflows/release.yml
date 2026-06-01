@@ -26,7 +26,7 @@ jobs:
         with:
           go-version: 1.18
       - name: Run GoReleaser Dry-Run
-        uses: goreleaser/goreleaser-action@v3
+        uses: goreleaser/goreleaser-action@5daf1e915a5f0af01ddbcd89a43b8061ff4f1a89 # v7
         with:
           version: latest
           args: release --rm-dist --skip-validate --skip-publish --skip-sign
@@ -36,7 +36,7 @@ jobs:
         with:
           gpg_private_key: ${{ secrets.PRIVATE_KEY }}
       - name: Run GoReleaser
-        uses: goreleaser/goreleaser-action@v3
+        uses: goreleaser/goreleaser-action@5daf1e915a5f0af01ddbcd89a43b8061ff4f1a89 # v7
         with:
           version: latest
           args: release --rm-dist
